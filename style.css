@@ -6,7 +6,7 @@
     --color-main: #000000;
     --color-purple: #D5DCF2;
     --color-green: #DAE9E8;
-    --color-salmon: #F9E2DA;
+    --color-salmon: #F3CEB1;
     --color-grey: #404040;
     --color-white:#FFFFFF;
 }
@@ -204,6 +204,11 @@ nav label {
   .text {font-size: 11px}
 }
 
+.clients{
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
 .tech-stack {
     margin: 5rem 0rem;
 }
@@ -267,10 +272,12 @@ nav label {
     box-shadow: 52px 52px 94px 0 rgba(63, 68, 81, 0.02);
 }
 
-.clients{
-    padding: 3rem 0rem;
-    text-align: center;
-}
+/* */
+testimonials-card {
+    padding: 48px 32px;
+    background: var(--color-green);
+    box-shadow: 52px 52px 94px 0 rgba(63, 68, 81, 0.02);
+} 
 
 .contact {
     padding: 3rem 0rem;
@@ -386,6 +393,21 @@ nav label {
 
 .contact-me button {
     font-weight: 600;
+}
+
+.client{
+    font-size: 48px;
+}
+
+.talk{
+  font-size: 48px;
+}
+
+.create{
+  color: var(--color-salmon);
+  font-size: 48px;
+  text-decoration: underline;
+  padding-bottom: 2rem;
 }
 
 .footer{
